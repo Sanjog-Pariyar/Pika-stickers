@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.app-container {
+    /* border: 1px solid red; */
+    width: 450px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-section {
+    margin: 30px;
+    cursor: pointer;
+}
+
+.single-pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.pokemon-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+    margin-top: 10px;
+}
+
+.pokemon-name-big {
+    font-size: 40px;
+    font-weight: bolder;
+    color: gray;
+    margin-top: 10px;
+}
+
+.sticker-font {
+    margin-top: 30px;
+    font-family: 'Arial', sans-serif; 
+    font-weight: 900; 
+    font-style: italic; 
+    font-size: 24px;
+    text-shadow: 2px 2px 2px #fff; 
+    color: #000;
+}
+
+.search-box {
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.main-sticker {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:90px;
+}
+
+.main-stats {
+    background-color: aliceblue;
+    color: darkgreen;
+    width: 170px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: start;
+}
+
+.stats {
+    font-weight: 200; /* Adjust weight for a bold appearance */
+    font-style: italic; /* Add an italic style if needed */
+    font-size: 17px;
+    margin: 7px;
+}
+
+.back-btn {
+    text-decoration: none;
+    margin-top: 5px;
+    background-color: green;
+    color: pink;
+    border-radius: 10px;
+    text-align: center;
+    width: 60px;
+    padding: 4px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background-color: whitesmoke;
+    color: gray;
+}
+
+
+@media screen and (min-width: 746px) {
+    .app-container {
+        width: 900px;
+    }
+}
