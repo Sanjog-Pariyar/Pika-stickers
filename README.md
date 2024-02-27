@@ -1,3 +1,13 @@
-docker build -t pika-stickers .
+// After cloning the Repo
 
-docker run 5173:5173 pika-stickers
+// To run using npm:
+
+# npm install
+
+# npm run dev
+
+// To run the app using docker:
+
+# docker build -t pika-stickers .
+
+# docker run 5173:5173 pika-stickers
